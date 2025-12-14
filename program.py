@@ -15,7 +15,6 @@ import plotly.graph_objects as go
 # SETTING STREAMLIT PAGE
 st.set_page_config(
     page_title="Sistem Klasifikasi Cuaca Harian Peringatan Deteksi Dini Potensi Hujan Lebat",
-    page_icon="⛈️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -979,3 +978,4 @@ if __name__ == "__main__":
     
     # Jalankan aplikasi
     main()
+
