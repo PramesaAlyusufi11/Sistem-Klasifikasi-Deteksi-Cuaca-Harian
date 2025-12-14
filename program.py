@@ -968,7 +968,6 @@ def _generate_scale_info(self, ews_system):
 # Attach helper method to main
 main._generate_scale_info = _generate_scale_info.__get__(main)
 
-# JALANKAN APLIKASI
 if __name__ == "__main__":
     # Inisialisasi session state
     if 'data_processed' not in st.session_state:
@@ -978,5 +977,5 @@ if __name__ == "__main__":
     if 'do_prediction' not in st.session_state:
         st.session_state.do_prediction = False
     
-    # Jalankan aplikasi utama
+    # Jalankan aplikasi
     main()
